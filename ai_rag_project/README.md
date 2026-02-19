@@ -27,15 +27,15 @@ User → Streamlit Interface
 ## Project Structure
 
 ai_rag_project/
-│
-├── app.py
-├── requirements.txt
-├── README.md
-├── utils/
-│   ├── __init__.py
-│   ├── embedding.py
-│   ├── vector_store.py
-│   └── rag.py
+|
+--app.py
+--requirements.txt
+-- README.md
+--utils/
+    --__init__.py
+    --embedding.py
+    -- vector_store.py
+    --rag.py
 
 - app.py – Streamlit user interface and application flow  
 - embedding.py – Embedding generation logic  
@@ -62,4 +62,5 @@ The system uses an EndeeVectorStore abstraction layer to handle vector storage a
 4. A transformer-based QA model generates an answer using only the retrieved context.  
 
 This ensures that answers are grounded in document content rather than generated purely from model memory.
+
 
