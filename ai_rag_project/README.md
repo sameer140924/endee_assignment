@@ -42,28 +42,6 @@ ai_rag_project/
 - vector_store.py – Endee vector store abstraction layer  
 - rag.py – Question answering logic  
 
-## How to Run the Project
-
-1. Clone the repository:
-
-git clone https://github.com/sameer140924/endee_assignment.git  
-cd endee_assignment/ai_rag_project  
-
-2. Create and activate a virtual environment:
-
-python -m venv venv  
-venv\Scripts\activate  
-
-3. Install dependencies:
-
-pip install -r requirements.txt  
-
-4. Run the application:
-
-python -m streamlit run app.py  
-
-The application will open in your browser at http://localhost:8501.
-
 ## Key Features
 
 - Upload and process PDF documents  
@@ -84,3 +62,4 @@ The system uses an EndeeVectorStore abstraction layer to handle vector storage a
 4. A transformer-based QA model generates an answer using only the retrieved context.  
 
 This ensures that answers are grounded in document content rather than generated purely from model memory.
+
